@@ -1,0 +1,45 @@
+{
+  "name": "anshul-dharmadhikari-omnipresent",
+  "version": "1.0.0",
+  "description": "backend test for omnipresent",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/src/index.js",
+    "lint": "eslint . --ext .ts",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnshD12/anshul-dharmadhikari-omnipresent.git"
+  },
+  "author": "Anshul Dharmadhikari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnshD12/anshul-dharmadhikari-omnipresent/issues"
+  },
+  "homepage": "https://github.com/AnshD12/anshul-dharmadhikari-omnipresent#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.1",
+    "@types/supertest": "^2.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.5.1",
+    "prettier": "^2.6.0",
+    "supertest": "^6.2.2",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "redis": "^4.0.4",
+    "winston": "^3.6.0"
+  }
+}
